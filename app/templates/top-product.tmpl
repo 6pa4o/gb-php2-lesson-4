@@ -1,0 +1,20 @@
+
+
+							<h2>top products</h2>
+							<div class="product-wrapper">
+								<? foreach ($content['top_product'] as $item): ?>
+									<a href="good/<?=$item['id_good']?>/">
+										<div class="product-item">
+											<div class="lable-hot"></div><img src="<?=$item['foto']?>" alt="">
+											<div class="product-item__description">
+												<div class="product-name">
+													<p><?=$item['name']?></p>
+												</div>
+												<div class="product-price">
+													<p>$.<?=$item['price']?></p>
+												</div>
+											</div>
+										</div>
+									</a>
+								<? endforeach; ?>
+							</div>
