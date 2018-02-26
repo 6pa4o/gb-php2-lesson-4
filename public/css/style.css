@@ -223,9 +223,11 @@ header {
 .button {
   background-color: #ff3;
   display: inline-block;
+  height: 50px;
   font-size: 14px;
   line-height: 50px;
   padding: 0 40px 0 30px;
+  margin-bottom: 10px;
   -webkit-transition: -webkit-box-shadow .3s ease;
   transition: -webkit-box-shadow .3s ease;
   -o-transition: box-shadow .3s ease;
@@ -234,7 +236,8 @@ header {
   .button:hover, .button:focus {
     -webkit-box-shadow: 2px 4px 2px #cccccc;
             box-shadow: 2px 4px 2px #cccccc;
-    color: #333333; }
+    color: #333333;
+    cursor: pointer;}
 
 .menu {
   background-color: #26d2fc;

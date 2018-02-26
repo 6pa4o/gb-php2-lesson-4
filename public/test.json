@@ -1,0 +1,13 @@
+{
+  "vendor": "Audi",
+  "model": "RS 7",
+  "engine": {
+    "power": 560,
+    "volume": 4
+  },
+  "available_colors": [
+    "red",
+    "white",
+    "black"
+  ]
+}
